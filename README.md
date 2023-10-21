@@ -28,7 +28,7 @@ O arquivo cifrado será gerado na mesma pasta do código.
 
 ### Descriptografar de Arquivos
 
-Para descriptografar um arquivo, execute o codigo e escolha a opção 2, digite 2 depois tecle enter:
+Para descriptografar um arquivo, execute o codigo e escolha a opção 2, digite 2 + enter:
 
 ![image](https://github.com/aureliodeboa/Aes/assets/53971991/6163e0b0-7a75-4c93-9762-98aa2afbb698)
 
@@ -61,6 +61,7 @@ Resultado:
 
 ## Limitações
 -Por utilizar um vetor de inicialização fixo nessa implementação, acredito que esse codigo só seja capaz de descriptografar arquivos que tenha o mesmo IV.
+
 -O IV utilizado é IV= 'fala, seu lindo!'.encode('utf8'), como pode ser visto no codigo.
 
 
