@@ -68,7 +68,7 @@ Resultado:
 ## Observações
 
 - Certifique-se de manter suas chaves seguras, pois a segurança do sistema depende fortemente da confidencialidade da chave.
-- O arquivo criptografado não  terá a extensão , e o arquivo decifrado tabém não.
+- O arquivo criptografado não  terá  extensão , e o arquivo decifrado tabém não.
 - Se o arquivo a ser criptografado ou descriptografado estiver na mesma pasta do código, você pode simplesmente fornecer o nome do arquivo como o caminho.
 
 Ps: 'fala, seu lindo' é uma piada interna.
