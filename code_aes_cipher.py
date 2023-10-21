@@ -1,5 +1,4 @@
-# $ python3 -m pip install cryptography
-#
+# $ pip install -r requirements.txt
 # Author.: Aurélio-Jose
 # Date...: 21/10/2023
 
@@ -7,7 +6,7 @@
 from Crypto.Cipher import AES #O AES
 import hashlib # biblioteca de hash
 
-#variaveis importantes
+#Variaveis importantes
 mode =  AES.MODE_CBC #conforme pedido modo encadeado
 IV =  'fala, seu lindo!'.encode('utf8') # vetor de inicializaçao, por algum motivo o AES dessa lib precisa disso.
 
@@ -54,8 +53,8 @@ if __name__ == '__main__':
    while True:
     # Apresenta o menu ao usuário
     print("Escolha uma opção:")
-    print("1 - Para Encriptar usando AES-CBC")
-    print("2 - Para Decriptar usando AES-CBC")
+    print("1 - Para Criptografar usando AES-CBC")
+    print("2 - Para Decriptografar usando AES-CBC")
     print("0 - Sair")
 
     # Solicita a entrada do usuário
@@ -63,19 +62,19 @@ if __name__ == '__main__':
 
     
     if escolha == "1":
-        path = input('digite o caminho do arquivo para ser encriptado: ')
-        chave = input('Digite a chave para cifrar: ')
+        path = input('digite o caminho do arquivo para ser criptografado: ')
+        chave = input('Digite a chave : ')
         cifrar(path,chave.encode("utf8"))
-        print('\n Arquivo cifrado!')
+        print('\n Arquivo criptografado!')
        
     elif escolha == "2":
-        path = input('digite o caminho completo do arquivo para ser encriptado: ')
-        chave = input('Digite a chave para decifrar: ')
+        path = input('digite o caminho completo do arquivo para ser descriptografado: ')
+        chave = input('Digite a chave : ')
         decifrar(path,chave.encode("utf8"))
-        print('\n Arquivo decifrado!')
+        print('\n Arquivo descriptografado!')
        
     elif escolha == "0":
-        print("Saindo do programa. Adeus!")
+        print("Saindo do programa. Valeu!")
         break
     else:
         print("Opção inválida. Por favor, escolha 1, 2 ou 0 para sair.")
