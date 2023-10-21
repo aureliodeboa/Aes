@@ -1,4 +1,4 @@
-# README - Projeto de Criptografia de Arquivos com AES (Modo CBC)
+#  Projeto de Criptografia de Arquivos com AES (Modo CBC)
 
 Este projeto em Python permite criptografar e descriptografar arquivos utilizando o algoritmo de criptografia AES no modo CBC (Cipher Block Chaining). Para utilizar o projeto, siga as instruções abaixo.
 
